@@ -1,8 +1,8 @@
 FROM node:10
 
-RUN git clone https://github.com/kevingonzalez7997/e-commerce-application-on-AWS-using-ECS.git
+RUN git clone https://github.com/kevingonzalez7997/e_com_app_on_AWS_using_ECS.git
 
-WORKDIR e-commerce-application-on-AWS-using-ECS/frontend/
+WORKDIR e_com_app_on_AWS_using_ECS/frontend/
 
 RUN npm install --save-dev @babel/plugin-proposal-private-property-in-object
 
